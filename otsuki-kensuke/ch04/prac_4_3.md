@@ -1,29 +1,17 @@
 # 4.3
 
 피보나치 수열의 일반항이
-$$
-F_{N} = {1\over\sqrt5}({({1+\sqrt5\over2})^N - ({1-\sqrt5\over2})^N})
-$$
+$$ F_{N} = {1 \over \sqrt5}({({1 + \sqrt5 \over 2})^N - ({1 - \sqrt5 \over 2})^N}) $$
 인 것을 증명하라.
 
 ## 풀이
 
 피보나치 수열의 점화식은 다음과 같다.
-$$
-a_{n+2}-a_{n+1}-a_{n}=0\quad(1)
-$$
+$$ a_{n+2}-a_{n+1}-a_{n}=0\quad(1) $$
 만약
-$$
-\begin{cases}
-\alpha+\beta=1 \; \cdots \; [A]
-\\
-\alpha\beta=-1 \; \cdots \; [B]
-\end{cases}
-$$
+$$ \alpha+\beta=1\space\cdots\space[A] ,\space\space \alpha \beta = -1 \space \cdots \space [B]  $$
 를 만족하는 두 실수 알파와 베타가 존재한다면, 식(1)은 다음 식과 같이 변형된다.
-$$
-a_{n+2} - (\alpha+\beta) a_{n+1} + \alpha\beta a_{n} = 0\quad(2)
-$$
+$$ a_{n+2} - (\alpha+\beta) a_{n+1} + \alpha\beta a_{n} = 0\quad(2) $$
 또한 식(2) 양변에 2를 곱하여 분리하면 다음과 같이 두 식으로 바꿀 수 있다.
 $$
 a_{n+2} - \alpha a_{n+1} = \beta (a_{n+1} - \alpha a_{n})\quad(3)
